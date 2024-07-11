@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px ;
+
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+
+.image-container{
+    background-image:url(../B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+    
+    width:1320px;
+    margin:0 auto;
+    border:2px solid red;
+    min-height:650px;
+    margin-top:150px
+  
+    
+   
+    
+
+}
+.image-content{
+    display: flex;
+    flex-direction: column;
+    height:350px;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.second-container{
+
+    
+    
+    width:1320px ;
+    margin:0 auto;
+    border:2px solid rgb(214,14,14) ;
+    min-height: 620px;
+    margin-top: 150px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode: overlay;
+
+    
+}
+
+
+
+
+
+
+
+.skills{
+    align-items: center;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Skills section*/
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-description{
+    padding: 30px;
+}
